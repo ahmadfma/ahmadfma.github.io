@@ -1,0 +1,548 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="fontawesome/css/all.css" rel="stylesheet">
+
+    <title>Web Pribadi</title>
+  </head>
+  <body id="page-top">
+   
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand text-info" href="#">Ahmad Fathanah M.Adil</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link js-scroll-trigger" href="#page-top">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#profil">PROFIL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#main">MATERI</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                         CONTACT
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="https://www.instagram.com/ahmadfma_/"> <i class="fab fa-instagram"></i> Instagram</a>
+                          <a class="dropdown-item" href="https://www.linkedin.com/in/ahmad-fathanah-m-adil-51098b192/"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                          <a class="dropdown-item" href="https://www.facebook.com/ahmat.123007/"><i class="fab fa-facebook"></i> Facebook</a>
+                          <a class="dropdown-item" href="#nmbr"><i class="fas fa-phone-square-alt"></i> +628 2291453878</a>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+      </nav>
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner">
+              <div class="carousel-caption d-none d-md-block">
+                <h1 class="display-4">Tugas Jaringan Komputer</h1>
+                <p class="lead text-danger">Tugas ini Berisikan Mengenai UDP (User Data Protocol)</p>
+                <hr class="my-4">
+                <a class="btn btn-warning btn-lg text-dark" href="#main" role="button">Pelajari</a>
+              </div>
+
+              <div class="carousel-item active">
+                <img src="net.jpg" class="d-block w-100" alt="...">
+
+              </div>
+              <div class="carousel-item">
+                <img src="net2.jpg" class="d-block w-100" alt="...">
+               
+              </div>
+              <div class="carousel-item">
+                <img src="net3.jpg" class="d-block w-100" alt="...">
+                
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+         <div class="container" id="main">
+            <h2> <br> UDP (User Datagram Protocol)</h2>
+             <p class="intro"> <br> UDP adalah kependekan dari User Datagram Protocol metupakan bagian dari internet protocol. Dengan UDP, aplikasi komputer dapat mengirimkan pesan kepada komputer lain dalam jaringan lain tanpa melakukan komunikasi awal.
+                UDP melakukan komunikasi secara sederhana dengan mekanisme yang sangat minimal. Ada proses checksum untuk menjaga integritas data. UDP digunakan untuk komunikasi yang sederhana seperti query DNS (Domain Name System),  NTP (Network Time Protocol)  DHCP (Dinamic Host Configuration Protocol), dan RIP   (Routing Information Protocol).
+                Pada query DNS, komputer meminta informasi suatu data dari suatu domain kepada DNS server. Data ini mungkin alamat web server, alamat mail server dan data-data yang lain terkait domain. DNS server akan membalas dengan memberikan informasi yang diinginkan client
+                Pada NTP, client meminta informasi waktu kepada NTP server. NTP server akan membalas waktu pada saat itu. Dengan demikian maka client akan memiliki system waktu yang akurat.
+                Pada DHCP, client akan menghubungi DHCP server untuk meminta alamat IP untuk dia pakai sendiri. DHCP server akan memberikan informasi alamat IP supaya digunakan oleh client tersebut.
+                Pada RIP, server RIP akan melakukan broadcast informasi routing kepada router-router yang lain.
+                UDP juga cocok untuk pengiriman informasi yang lebih menekankan kecepatan daripada kehandalan. Contoh aplikasi ini adalah audio streaming dan video streaming. <br></p>
+             <br>
+
+             <div class="accordion" id="accordionExample">
+
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                      <button class="btn btn-info btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <i class="fas fa-angle-double-right"></i> Model Referensi TCP/IP
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <img src="tcp.png" alt="" class="tcp">
+                      <p> <br>
+                        TCP/IP bukan merupakan protokol tunggal, dari namanya dapat diketahui kalau TCP/IP sebenarnya berupa sederetan protokol. Dengan kata lain, 
+                        TCP/IP merupakan kumpulan protokol yang asli bermaksud membuat sebuah protokol yang dapat melintasi lingkungan jaringan yang beraneka ragam dan 
+                        mempunyai kemampuan menjalankkan rute ganda untuk sampai ke tujuan akhir. Fleksibelitas merupakan hal yang sangat penting. Pada mulanya, TCP/IP
+                         disebut NCP (Network Control Protocol). Protokol percobaan tersebut melewati jaringan packet-switch. Tujuannya adalah memastikan bahwa jika 
+                         suatu bagian jaringan mengalami kerusakan, transmisi data akan tetap berlangsung melewati rute alternatif lain.  
+                      </p>
+
+                      <p>
+                        TCP/IP mengatur komunikasi data komputer di internet dan memastikan pengiriman data ke alamat yang dituju. Lapisan-lapisan protokol TCP/IP melayani permintaan pengguna untuk mengirim dan menerima data, mengatur komunikasi antar-host, melakukan pengecekan kesalahan, menyampaikan paket ke alamat yang benar, dan mengirim/menerima data dari media fisik.
+                        Protokol TCP/IP mempunyai empat lapisan yang merupakan penyederhanaan dari lapisan-lapisan yang ada di OSI. Lapisan-lapisan Protokol model TCP/IP mempunya empat lapisan, yaitu:
+                      </p>
+
+                      <ul style="list-style-type: disc">
+                        <li>Lapisan Aplikasi</li>
+                        <li>Lapisan Transport</li>
+                        <li>Lapisan Internet</li>
+                        <li>Lapisan Antarmuka Jaringan Fisik</li>
+                      </ul>
+
+                      <h1>Lapisan Aplikasi</h1>
+                      <p>
+                        Lapisan Aplikasi pada model protokol TCP/IP adalah lapisan yang melayani permintaan pengguna untuk mengirim dan menerima data. 
+                        Lapisan ini merupakan tempat dimana aplikasi dan servis-servis lain memperoleh akses ke jaringan. Lapisa ini merupakan “jendela” protokol 
+                        terhadap dunia. Dua API (Application Programming Interface / Antarmuka Program Aplikasi) yang berbeda menyediakan akses ke protokol transportasi
+                         TCP/IP, yaitu Socket Window dan Net Bios.
+                      </p>
+
+                      <h1>Lapisan Transport</h1>
+                      <p>
+                        Lapisan Transportasi pada model protokol TCP/IP berfiungsi mengatur komunikasi antar host dan melakukan pengecekkan kesalahan.  
+                        Lapisan ini melakukan dan mempertahankan komunikasi point-to-point di antara dua host. Fungsi utamanya adalah memberi balasan tehadap informasi dan mentransmisikan paket-paket data
+                      </p>
+
+                      <p>
+                        Jenis servis ini yang diperlukan tergantung kepada aplikasi, dapat menggunakan TCP (Transmission Control Protocol) atau UDP (User Datagram Protocol). 
+                        TCP biasanya digunakan ketika aplikasi yang dijalankan memerlukan transmisi data dalam jumlah besar dan memastikan data yang diperoleh penerima merupakan 
+                        data yang benar dan dalam waktu pengiriman yang tepat. Adapun UDP digunakan apabila aplikasi menstransmisikan data dalam jumlah kecil dan tidak memerlukan 
+                        balasan dari penerima. Penerima data melalui UDP bersifat unreliable (tidak ada pengecekan kesalahan paket); tidak ada laporan tentang penerimaan data dari penerima.
+                      </p>
+
+                      <h1>Lapisan Internet</h1>
+                      <p>
+                        Lapisan Internet bertugas menjalankan data di dalam dan di antara jaringan yang berbeda. 
+                        Router sangat berfungsi pada lapisan protokol ini dan bertugas meneruskan paket data dari suatu jaringan atau segmen kepada jaringan lainnya.
+                      </p>
+
+                      <h1>Lapisan Antarmuka Jaringan/Fisik</h1>
+                      <p>
+                        Lapisan Antarmuka Jaringan merupakan lapisan paling bawah. Lapisan ini bertugas mengirimkan paket data yang berisi IP. 
+                        Lapisan ini bekerja dekat dengan ARP untuk menentukan header informasi yang tepat yang perlu ditambahkan pada masing-masing frame.
+                         Lapisan ini membuat frame yang cocok dengan tipe jaringan yag digunakan, seperti Ethernet, Token Ring, atau ATM, 
+                         kemudian meletakkan paket data IP ke daerah muatan pada sebuah frame dan mengirimkan data.
+                      </p>
+  
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                      <button class="btn btn-info btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <i class="fas fa-angle-double-right"></i> Mengapa Model Referensi dibuat berlayer
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <p>Karena : </p>
+                      <ul style="list-style-type: disc">
+                        <li>
+                          <p>Membantu dalam desain protokol, karena protokol yang beroperasi
+                            pada lapisan tertentu telah mendefinisikan informasi dan bertindak
+                            untuk tugas tertentu dan menjadi penghubung untuk lapisan atas dan
+                            bawahnya.</p>
+                        </li>
+
+                        <li>
+                          <p>
+                            Percepatan kompetisi antar vendor
+                          </p>
+                        </li>
+
+                        <li>
+                          <p>
+                            Mencegah pengaruh terhadap layer lainnya akibat adanya efek yang terjadi akibat perubahan teknologi dan kemampuan pada suatu layer
+                          </p>
+                        </li>
+
+                        <li>
+                          <p>
+                            Menyediakan bahasa yang sama dalam mendeskripsikan fungsi dan kemampuan jaringan
+                          </p>
+                        </li>
+                      </ul>
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-info btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <i class="fas fa-angle-double-right"></i> Fungsi Layer Transport
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+
+                     <p>Berikut ini adalah beberapa fungsi dari transport layer :</p>
+                     <ul style="list-style-type: Decimal">
+
+                      <li> <strong> Menerima data dari session layer </strong>
+                        <p>
+                          Fungsi pertama dari transport layer ini adalah menerima data yang dikirimkan melalui session layer. Seperti kita ketahui, bahwa keseluruhan model OSI ini merupakan satu kesatuan, 
+                          sehingga setiap kegiatan yang berjalan di dalam Model Referensi OSI ini adalah berkesinambungan. Begitu pula dengan proses transmisi data. 
+                          Data yang sudah melewati layer session, kemudian diteruskan ke transport layer, untuk kemudian diteruskan lagi menuju layer-layer berikutnya.
+                        </p>
+                      </li>
+
+                        <li> <strong>Memecah data menjadi bagian – bagian yang lebih kecil</strong>
+                          <p>
+                            Disinilah fungsi utama lainnya dari transport layer. transport layer memiliki fungsi utama untuk memecah data atau peket data ke dalam bentuk-bentuk paket yang lebih kecil.
+                            Proses ini dilakukan untuk mempermudah proses pengiriman alias transmisi data yang berjalan di dalam jaringan komputer tersebut.
+                            Dengan adanya proses pemecahan data ini, maka setiap data diyakini tidak akan mengalami corrupt, atau mengalami proses trasnmisi yang sangat lambat 
+                            akibat besarnya ukuran data yang ada.
+                          </p>
+                        </li>
+
+                        <li> <strong>Meneruskan data ke network layer</strong>
+                          <p>
+                            Netwok layer jaringan komputer merupakan salah satu lapisan yang bertugas untuk memberikan header pada paket data yang sudah dipecah.
+                            ketika paket data tersebut sudah dipecah-pecah di dalam transport layer, maka kemudian paket data tersebut akan diteruskan ke dalam network layer, 
+                            untuk kemudian diproses dan diberikan header atau judul pada setiap paket data yang ditransmisikan.
+                          </p>
+                        </li>
+
+                        <li> <strong>Memastikan bahwa semua data yang melewatinya dapat tiba di sisi lainnya dengan tepat</strong>
+                          <p>
+                            Fungsi berikutnya dari transport layer adalah fungsi supervise atau pengawasan. Transport layer memiliki fungsi yang sangat penting, 
+                            karena transport layer berfungsi untuk memastikan bahwa seluruh paket data yang ditransmisikan di dalam jaringan komputer tersebut dapat sampai pada komputer
+                            penerima dengan cepat, tepat, dan sesuai dengan tujuan. Hal ini untuk menghindari terjadinya kesalahan dalam proses transmisi data di dalam jaringan komputer.
+                          </p>
+                        </li>
+
+                        <li> <strong>Mengirim segment dari satu host ke host yang lain</strong>
+                          <p>
+                            Fungsi berikutnya dari transport layer adalah melakukan proses pengiriman segment dari satu host menuju host yang lain. segment sendiri merupakan bagian dari pecahan-pecahan data yang sudah diproses di dalam transport layer. 
+                            Dengan begitu, setiap pecahan data tersebut nantinya akan diterima di host lain.
+                          </p>
+                        </li>
+
+                        <li> <strong>Memastikan realibilitas data</strong>
+                          <p>
+                            Reliabilitas merupakan sebuah kondisi dimana sebuah data adalah benar adanya, dan berisi sesuai dengan spesifikasinya. Tugas dari transport layer adalah memastikan hal tesebut.
+                            Jadi, transport layer nantinya akan mengecek, apakah data yang diolah dan juga diproses di dalam transport layer sudah sesuai dan sudah reliabel.
+                            Apabila hal ini sudah selesai, maka transport layer kemudian akan mengirimkan pecahan atau paket data tersebut menuju layer berikutnya untuk diproses lebih lanjut. 
+                            Hal ini dilakukan untuk menjaga agar konektivitas di dalam jaringan tetap berjalan dengan baik.
+                          </p>
+                        </li>
+
+                        <li> <strong>Mengatur lalu lintas dari sebuah jaringan</strong>
+                          <p>
+                            Fungsi lainnya dari transport layer yang tidak kalah penting adalah fungsinya sebagai polisi lalu lintas. 
+                            Ya, transport layer merupakan lapisan yang berfungsi untuk mengatur lalu lintas kecepatan data yang ditransmisikan melalui jaringan komputer tersebut.
+                            Hal ini dilakukan agar setiap perputaran dan traffic dapat berjalan dan ditransmisikan dengan lancar, dan juga diaplikasikan untuk mencegah terjadinya 
+                            kemacetan apabila jaringan sedang berada pada kondisi yang sangat padat dan berpotensi mengalami kemacetan jaringan.
+                          </p>
+                        </li>
+
+                     </ul>
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header" id="headingFour">
+                    <h2 class="mb-0">
+                      <button class="btn btn-info btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <i class="fas fa-angle-double-right"></i> Penjelasan Port Number, fungsi dan contoh proses kerjanya
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <p>
+                        Dalam protokol jaringan TCP/IP, sebuah port adalah mekanisme yang mengizinkan sebuah komputer untuk mendukung beberapa sesi koneksi dengan komputer lainnya dan program di dalam jaringan.      
+                        Port dapat mengidentifikasikan aplikasi dan layanan yang menggunakan koneksi di dalam jaringan TCP/IP. Sehingga, port juga mengidentifikasikan sebuah proses tertentu di mana sebuah server dapat memberikan sebuah layanan kepada klien atau bagaimana
+                        sebuah klien dapat mengakses sebuah layanan yang ada dalam server. Port dapat dikenali dengan angka 16-Bit (dua byte) yang disebut dengan Port Number dan diklasifikasikan dengan jenis protokol transport apa yang digunakan, ke dalam Port TCP dan Port UDP. 
+                        Karena memiliki angka 16-bit, maka total maksimum jumlah port untuk setiap protokol transport yang digunakan adalah 65536 buah.
+                      </p>
+
+                      <h1>Port UDP dan TCP</h1>
+                      <p>Dilihat dari penomorannya, port UDP dan TCP dibagi menjadi tiga jenis, yakni sebagai berikut :</p>
+
+                      <ul style="list-style-type: disc">
+                        <li>
+                          <strong>Well-known Port : </strong> yang pada awalnya berkisar antara 0 hingga 255 tapi kemudian diperlebar untuk mendukung antara 0 hingga 1023. 
+                          Port number yang termasuk ke dalam well-known port, selalu merepresentasikan layanan jaringan yang sama, dan ditetapkan oleh Internet Assigned Number Authority (IANA). 
+                          Beberapa di antara port-port yang berada di dalam range Well-known port masih belum ditetapkan dan direservasikan untuk digunakan oleh layanan yang bakal ada di masa
+                          pan. Well-known port didefinisikan dalam RFC 1060.
+                        </li>
+
+                        <li>
+                          <strong>Registered Port :</strong> Merupakan fungsi port yang digunakan oleh vendor-vendor komputer atau jaringan yang berbeda untuk mendukung aplikasi dan sistem operasi yang mereka buat. 
+                          Registered port juga diketahui dan didaftarkan oleh IANA tapi tidak dialokasikan secara permanen, sehingga vendor lainnya dapat menggunakan port number yang sama.
+                          Range registered port berkisar dari 1024 hingga 49151 dan beberapa port di antaranya adalah Dynamically Assigned Port
+                        </li>
+
+                        <li>
+                          <strong>Dynamically Assigned Port : </strong> merupakan port-port yang ditetapkan oleh sistem operasi atau aplikasi yang digunakan untuk melayani request dari pengguna sesuai dengan kebutuhan. 
+                          Dynamically Assigned Port berkisar dari 1024 hingga 65536 dan dapat digunakan atau dilepaskan sesuai kebutuhan.
+                        </li>
+
+                      </ul>
+
+                      <h1>Pengertian nama-nama kegunaan port tersebut</h1>
+                      <ul style="list-style-type: square">
+                        <li>
+                          FTP (singkatan dari File Transfer Protocol) adalah sebuah protokol Internetyang berjalan di dalam lapisan aplikasi yang merupakan standar untuk pentransferan berkas (file) computer antar
+                          mesin-mesin dalam sebuah internetwork
+                        </li>
+
+                        <li>
+                          SMTP (Simple Mail Transfer Protocol) merupakan salah satu protokol yang umum digunakan untuk pengiriman surat elektronik di Internet. Protokol ini dipergunakan untuk mengirimkan data
+                          dari komputer pengirim surat elektronik ke server surat elektronik penerima.
+                        </li>
+
+                        <li>
+                          HTTP (Hypertext Transfer Protocol, lebih sering terlihat sebagai http) adalah protocol yang dipergunakan untuk mentransfer dokumen dalam World Wide Web (WWW). Protokol ini adalah protokol ringan,
+                          tidak berstatus dan generik yang dapat dipergunakan berbagai macam tipe dokumen.
+                        </li>
+
+                        <li>
+                          POP3 (Post Office Protocol version 3) adalah protokol yang digunakan untuk mengambil surat elektronik (email) dari server email.
+                        </li>
+
+                        <li>
+                          IMAP (Internet Message Access Protocol) adalah protokol standar untuk mengakses/mengambil e-mail dari server. IMAP memungkinkan pengguna memilih pesan e-mail yang akan ia ambil, membuat folder di server, 
+                          mencari pesan e-mail tertentu, bahkan menghapus pesan e-mail yang ada.
+                        </li>
+                      </ul>
+
+                      <h1>Fungsi Port Standard dan Kegunaan port</h1>
+                      <ul style="list-style-type: square">
+                        <li>
+                          Port 1-19. berbagai protokol, Sebagian banyak port ini tidak begitu di perlukan namun tidak dapat diganggu. Contohnya layanan echo (port 7) yang tidak boleh dikacaukan dengan program ping umum.
+                        </li>
+
+                        <li>
+                          Port 20. FTP-DATA. “Active” koneksi FTP menggunakan dua port: 21 adalah port kontrol, dan 20 adalah tempat data yang masuk. FTP pasif tidak menggunakan port 20 sama sekali.
+                        </li>
+
+                        <li>
+                          Port 21. Fungsi Port server FTP yang digunakan oleh File Transfer Protocol. Ketika seseorang mengakses FTP server, maka ftp client secara default akan melakukan koneksi melalui port 21.
+                        </li>
+
+                        <li>
+                          Port 22. SSH Secure Shell Port ini digunakan untuk port SSH ,SSH (Secure Shell), Port ini ini adalah port standar untuk SSH, biasanya diubah oleh pengelola server untuk alasan keamanan.
+                        </li>
+
+                        <li>
+                          Port 23. Telnet Jika anda menjalankan server telnet maka port ini digunakan client telnet untuk hubungan dengan server telnet
+                        </li>
+
+                        <li>
+                          Port 25. SMTP, Simple Mail Transfer Protocol, atau port server mail, merupakan port standar yang digunakan dalam komunikasi pengiriman email antara sesama SMTP Server.
+                        </li>
+
+                        <li>
+
+                        </li>
+                      </ul>
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header" id="headingFive">
+                    <h2 class="mb-0">
+                      <button class="btn btn-info btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        <i class="fas fa-angle-double-right"></i> Penjelasan tentang UDP dan prinsip kerjanya
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                    <div class="card-body"> 
+                      <p>
+                        UDP merupakan akronim dari User Data Protocol yang masih bagian dari internet protocol. UDP digunakan untuk komunikasi sederhana semacam DNS (Domain Name System), NTP (Network Time Protocol), DHCP (Dinamic Host Configuration) dan RIP. 
+                        UDP (User Data Protocol) juga dapat digunakan untuk mengirimkan sebuah atau beberapa jumlah informasi yang lebih menekankan kecepatan dibandingkan kehandalan. Dengan pemanfaatan UDP yang tepat, transaksi informasi dapat berlangsung dengan lebih cepat meskipun agak kurang akurat.
+                        Walau demikian, melalui penggunaan UDP (User Data Protocol) ini, komputer pengirim dan komputer penerima pesan tidak perlu lagi melakukan negosiasi saat pertukaran data, atau pendeknya proses panjang validasi data. Sebab data yang saling ditransferkan tersebut telah sesuai settingan UDP.
+                      </p>
+
+                      <h1>Port UDP</h1>
+                      <p>
+                        Di dalam UDP yang notabene adalah User Data Protocol jaringan TCP/IP, terdapat komponen yang disebut dengan port. Port merupakan mekanisme yang memberikan izin kepada sebuah komputer untuk mendukung beberapa saat koneksi dengan computer yang lainnya. 
+                        Port dapat mengidentifikasi aplikasi dan layanan yang berada di jaringan TCP/IP.
+                      </p>
+
+                      <p>
+                        Port dapat dikenali dengan angka 16-bit yang dimaksud port number dan diklasifasikan dengan jenis protocol transport yang dimanfaatkan ke dalam port TCP dan port UDP. Karena memiliki batas tolerir jumlah port untuk setiap protocol transport yang digunakan sebanyak 65536 buah. Port UDP adalah channel yang ada di dalam UDP.
+                      </p>
+
+                      <p>
+                        Dengan menggunakan UDP, setiap aplikasi socket bisa mengirimkan paket-paket yang berbentuk datagram. Datagram selanjutnya diperuntukkan terhadap paket yang bersifat tidak handal (unreliable service). Sementara koneksi handal (biasanya berlaku bagi TCP) selalu menyertakan keterangan jikalau terjadi kegagalan dalam pengiriman data.
+                        Data yang ditransfer menggunakan protocol UDP yang berupa datagram tidak disertai dengan adanya nomor identifier. Sehingga peluang terjadinya data corrupt cukup besar ketika menempuh perjalanan dari host ke tujuan. Meski memiliki resiko-resiko yang lumayan tidak mengenakkan, bukan berarti UDP tidak mempunyai kelebihan tersendiri.
+                      </p>
+
+                      <p>
+                        Salah satu kelebihan UDP ialah protokolnya yang ‘ringan’ (lightweight), sehingga mampu menghemat sumber daya memori sekaligus sumber kapasitas prosesor. Beberapa lapisan protocol aplikasi memerlukan penggunaan protocol yang terbilang ringan dan dapat berfungsi secara spesifik.
+                      </p>
+
+                      <h1>Cara Kerja UDP</h1>
+                      <p>
+                        UDP (User Data Protocol) memiliki cara kerja yang jelas berbeda dengan TCP. UDP mempunyai saluran atau channel yang berfungsi untuk mengoneksi antar host untuk saling kirim informasi data. Channel itulah yang kemudian disebut dengan port UDP. Agar dapat terhubung dengan protocol UDP, aplikasi sebuah komputer harus dilengkapi alamat IP.
+                        Port UDP nantinya berguna untuk multiplexed message queue. Maksudnya, port UDP sangat dimungkinkan mampu bekerja menerima dan mengirimkan pesan data secara bersamaan. Lalu setiap nomor channel UDP atau port UDP dilengkapi dengan nomor unik khusus dalam pembagiannya sendiri.
+                      </p>
+
+                      <p>
+                        Ada beberapa tahapan cara kerja UDP yang dilakukan, setiap tahapan kerja saling sinambung
+                      </p>
+
+                      <ul style="list-style-type: Decimal">
+                        <li>
+                          Paket berisi client port dan port sumber berbentuk file text dikirim di dalam UDP Header
+                        </li>
+
+                        <li>
+                          Paket isi port client dan port sumber audio dikirim ke server dalam UDP Header
+                        </li>
+
+                        <li>
+                          Tujuan UDP membaca nomor port tujuan dan proses data
+                        </li>
+
+                        <li>
+                          Paket asli mempunyai port tujuan, sehingga server bisa mengirimkan kembali data ke FTFP Client
+                        </li>
+
+                        <li>
+                          Point 3 dan 4 berulang kembali ketika file audio dikirimkan client
+                        </li>
+
+                        <li>
+                          Ketika aplikasi ingin mengirim data, UDP tidak akan membuffer ataupun memfragmen tiap data yang masuk
+                        </li>
+
+                        <li>
+                          Karena data tidak mengalami prossesing data yang berbelit terutama karena tidak memfragmen data, maka jika data lebih besar daripada MTU, lapisan IP yang harus memfragmennya.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header" id="headingSix">
+                    <h2 class="mb-0">
+                      <button class="btn btn-info btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        <i class="fas fa-angle-double-right"></i> Prinsip kerja Checksum Checking dan contohnya
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+
+              <br><br><br>
+              <p class="writer">Ditulis Oleh <span>AhmadFathanah</span> pada tanggal 2 September 2020</p>
+              <br>
+         </div>
+
+         <div class="jumbotron jumbotron-fluid bg-warning text-white" id="profil">
+          <div class="container" id="about">
+
+            <div class="aa">
+              <h1 class="display-4">About Me</h1>
+              <p class="lead text-dark">Hello, My name is Ahmad Fathanah M.Adil. Welcome to My Website</p>
+              <img src="mamad2.jpg" alt="">
+            </div>
+            
+          </div>
+
+          <div class="container" id="logo">
+            <div class="row">
+              <div class="col- col-md col-sm">
+               <p><i class="fas fa-university text-dark"></i>  Hasanuddin University</p>
+              </div>
+              <div class="col- col-md col-sm">
+                <p><i class="fas fa-male text-dark"></i> Maros, 15 November 2001</p>
+              </div>
+              <div class="col- col-md col-sm">
+                <p><i class="fas fa-map-marker-alt text-dark"></i> BTN Kendari Permai, Sulawesi Tenggara</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="container" id="medsos">
+
+            <a class="xx text-dark ml-5" href="https://www.instagram.com/ahmadfma_/"> <i class="fa-3x fab fa-instagram"></i> </a>
+            <a class="xx text-dark ml-5" href="https://www.linkedin.com/in/ahmad-fathanah-m-adil-51098b192/"><i class="fa-3x fab fa-linkedin"></i> </a>
+            <a class="xx text-dark ml-5" href="https://www.facebook.com/ahmat.123007/"><i class=" fa-3x fab fa-facebook"></i> </a>
+
+          </div>
+
+          <div class="container" id="contact">
+            <p class="person text-danger">Contact Person :</p>
+            <p> <a  class="email text-danger" href="#email"> <i class="fas fa-envelope"></i> ahmadfathanah05@gmail.com</a> </p>
+            <p> <a class="number text-danger" href="#nmbr"><i class="fas fa-phone-square-alt"></i> +628 2291453878</a></p>
+          </div>
+
+        </div>
+
+        <div class="footer bg-dark">
+          <div class="container">
+            <p class="text-white">Copyright 2020 @AhmadFathanah on right reserved</p>
+          </div>
+        </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
