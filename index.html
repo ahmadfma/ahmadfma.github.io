@@ -480,7 +480,21 @@
                   </div>
                   <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
                     <div class="card-body">
-                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                      <p>
+                        Checksum adalah skema kesalahan / deteksi sederhana di mana setiap pesan yang dikirim yang menghasilkan nilai numeric berdasarkan byte dalam pesan. 
+                        Pengirim menempatkan nilai yang dihitung dalam pesan (biasanya di header pesan ) dan mengirimkan nilai pada pesan. Penerima menerapkan rumus yang sama untuk 
+                        masing-masing menerima pesan dan memeriksa untuk memastikan nilai numeric adalah sama. Jika tidak, penerima dapat mengasumsikan bahwa pesan telah rusak dalam 
+                        transmisi. Jaringan transmisi data yang sering menghasilkan kesalahan, seperti toggled, hilang atau bit diduplikasi. Akibatnya, data yang diterima mungkin tidak
+                         sama dengan data yang di kirim. Karena kesalahan transmisi ini, protocol jaringan yang sangat sering menggunakan checksum untuk mendeteksi kesalahan tersebut.
+                          Pemancara akan menghitung checksum dari data dan mengirimkan data bersama-sama dengan checksum. Penerima akan menghitung checksum dari data yang diterima dengan 
+                          algoritma yang sama dengan pemancar.jika diterima akan dihitung checksum tidak cocok, kesalahan transmisi telah terjadi. Jika terjadi kesalahan yang tidak dapat
+                           dipulihkan , sisi penerima membuang paket. Tergantung pada protocol jaringan, kehilangan data hanya diabaikan atau sisi pengirim kebutuhan untuk mendeteksi 
+                           kerugian ini. Pada Metode checksum, pengecekan dilakukan dengan melakukan penjumlahan pada sekumpulan data dan kemudian mengcomplement jumlah tersebut, kemudian
+                            hasil complement tersebut/checksum ditambahkan pada data sebagai sebuah karakter. Kemudian pada reciever, akan dihitung ulang checksum-nya dan dilakukan
+                             perbandingan nilai/jumlah data yang dikirimkan dengan checksum. Bila terjadi perbedaan nilai antara kedua nilai ini, maka terjadi kesalahan/error dalam 
+                             pengiriman data. Pada dasarnya metode ini mirip dengan parity check, perbedaannya adalah jumlah bit pada sums lebih besar dan hasil dari penjumlahan data 
+                             dengan checksum harus selalu dibuat nol.
+                      </p>
                     </div>
                   </div>
                 </div>
